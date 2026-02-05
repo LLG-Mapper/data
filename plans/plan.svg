@@ -1,0 +1,45 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f0f4f8" />
+  <text x="350" y="30" font-family="Arial" font-size="24" font-weight="bold" fill="#334155">Evergreen Academy Campus Map</text>
+
+  <g id="Building_H">
+    <text x="100" y="70" font-family="Arial" font-size="14" font-weight="bold">Building H: Humanities and Admin</text>
+    
+    <g id="H_Floor_1" opacity="0.9">
+      <path id="H001" d="M 50 80 H 150 V 150 H 50 Z" fill="#bfdbfe" stroke="#1e40af" stroke-width="2" />
+      <text x="65" y="120" font-family="Arial" font-size="10">H001 (Office)</text>
+      
+      <path id="H002" d="M 150 80 H 250 V 150 H 150 Z" fill="#bfdbfe" stroke="#1e40af" stroke-width="2" />
+      <text x="165" y="120" font-family="Arial" font-size="10">H002 (Lounge)</text>
+      
+      <path id="H003" d="M 50 150 H 150 V 250 H 50 Z" fill="#bfdbfe" stroke="#1e40af" stroke-width="2" />
+      <text x="75" y="205" font-family="Arial" font-size="10">H003</text>
+      
+      <path id="H004" d="M 150 150 H 250 V 250 H 150 Z" fill="#bfdbfe" stroke="#1e40af" stroke-width="2" />
+      <text x="175" y="205" font-family="Arial" font-size="10">H004</text>
+    </g>
+  </g>
+
+  <g id="Building_S">
+    <text x="450" y="70" font-family="Arial" font-size="14" font-weight="bold">Building S: Science and Innovation</text>
+    
+    <g id="S_Floor_1">
+      <path id="S001" d="M 450 80 H 600 V 200 H 450 Z" fill="#bbf7d0" stroke="#166534" stroke-width="2" />
+      <text x="480" y="145" font-family="Arial" font-size="10">S001 (Chem Lab)</text>
+      
+      <path id="S002" d="M 600 80 H 750 V 200 H 600 Z" fill="#bbf7d0" stroke="#166534" stroke-width="2" />
+      <text x="630" y="145" font-family="Arial" font-size="10">S002 (Bio Lab)</text>
+    </g>
+
+    <g id="S_Floor_2" transform="translate(0, 150)">
+      <path id="S101" d="M 450 100 H 600 V 220 H 450 Z" fill="#dcfce7" stroke="#166534" stroke-dasharray="4" stroke-width="2" />
+      <text x="480" y="165" font-family="Arial" font-size="10">S101 (Robotics)</text>
+      
+      <path id="S102" d="M 600 100 H 750 V 220 H 600 Z" fill="#dcfce7" stroke="#166534" stroke-dasharray="4" stroke-width="2" />
+      <text x="630" y="165" font-family="Arial" font-size="10">S102 (CS)</text>
+    </g>
+  </g>
+
+  <circle cx="350" cy="400" r="60" fill="#cbd5e1" stroke="#64748b" />
+  <text x="320" y="405" font-family="Arial" font-size="12" fill="#475569">Courtyard</text>
+</svg>
